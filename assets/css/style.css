@@ -1,0 +1,85 @@
+
+
+body{
+	
+	background: url(../images/scottback.jpg) no-repeat center center fixed; 
+	background-size: auto;
+	font-family: 'Press Start 2P', cursive;
+
+}
+.page-header{
+	margin-top: 20px;
+	border-bottom: 3px solid red;
+}
+
+
+.character_div {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: solid 4px black;
+	margin: 10px;
+}
+
+.character{
+	height: 150px;
+	width: 150px;
+
+}
+
+p{
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 10px
+
+}
+
+h2{
+	text-decoration: underline;
+	margin: 10px;
+}
+
+.character_div{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: solid 4px black;
+	margin: 2px;
+}
+.enemy_div{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: solid 4px black;
+	margin: 5px;
+}
+#instructions-box{
+	border: 2px solid black;
+	margin-left: 10px;
+}
+#main{
+	margin-left: 30px;
+}
+
+#attack{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #da3242;
+	width: 125px;
+	height: 40px;
+/*	display: none;*/
+position: relative;
+top: 20px;
+left: 30%;
+}
+
+
+#play_again{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	width: 140px;
+	height: 40px;
+	display: none;
+}
+
